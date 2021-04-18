@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:social_media_profile_screen/my_text_theme.dart';
+import 'package:social_media_profile_screen/my_text.dart';
 
 class MyAppBar extends StatelessWidget {
   @override
@@ -9,7 +10,7 @@ class MyAppBar extends StatelessWidget {
       child: Row(
         children: [
           Text(
-            'pieroborgo',
+            title,
             style: MyTextTheme.h1,
           ),
           Expanded(
