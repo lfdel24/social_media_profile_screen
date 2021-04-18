@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:social_media_profile_screen/widgets/my_app_bar.dart';
 import 'package:social_media_profile_screen/widgets/section_one.dart';
+import 'package:social_media_profile_screen/widgets/section_three.dart';
 
 const iconsPath = 'assets/icons/';
 const imagePath = 'assets/images/';
@@ -26,11 +27,12 @@ class ProfileScreen extends StatelessWidget {
       child: Scaffold(
         body: Center(
           child: Container(
-            padding: EdgeInsets.symmetric(horizontal: 8, vertical: 8),
+            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
             child: Column(
               children: [
                 MyAppBar(),
                 MySectionOne(),
+                MySectionThree(),
               ],
             ),
           ),
