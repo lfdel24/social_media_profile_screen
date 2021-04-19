@@ -31,8 +31,8 @@ class ProfileScreen extends StatelessWidget {
             child: Column(
               children: [
                 MyAppBar(),
-                MySectionOne(),
-                MySectionThree(),
+                SectionOne(),
+                SectionTwo(),
               ],
             ),
           ),

@@ -16,8 +16,9 @@ class MyAppBar extends StatelessWidget {
           Expanded(
             child: SizedBox(),
           ),
-          IconButton(icon: Icon(Icons.add_box_outlined), onPressed: () {}),
-          IconButton(icon: Icon(Icons.menu_outlined), onPressed: () {}),
+          Container(child: Icon(Icons.add_circle_outline_outlined)),
+          SizedBox(width: 10),
+          Icon(Icons.menu_outlined),
         ],
       ),
     );
