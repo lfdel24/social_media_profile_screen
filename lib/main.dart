@@ -26,16 +26,22 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: Center(
-          child: Container(
-            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-            child: Column(
-              children: [
-                MyAppBar(),
-                SectionOne(),
-                SectionTwo(),
-                SectionStory(),
-              ],
+        body: SingleChildScrollView(
+          child: Center(
+            child: Container(
+              padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+              child: Column(
+                children: [
+                  MyAppBar(),
+                  SectionOne(),
+                  SectionTwo(),
+                  SectionStory(),
+                  Container(
+                    height: 200,
+                    child: Placeholder(),
+                  )
+                ],
+              ),
             ),
           ),
         ),
