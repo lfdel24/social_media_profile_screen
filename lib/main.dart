@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:social_media_profile_screen/widgets/my_app_bar.dart';
 import 'package:social_media_profile_screen/widgets/section_one.dart';
-import 'package:social_media_profile_screen/widgets/section_three.dart';
+import 'package:social_media_profile_screen/widgets/section_story.dart';
+import 'package:social_media_profile_screen/widgets/section_two.dart';
 
 const iconsPath = 'assets/icons/';
 const imagePath = 'assets/images/';
@@ -33,6 +34,7 @@ class ProfileScreen extends StatelessWidget {
                 MyAppBar(),
                 SectionOne(),
                 SectionTwo(),
+                SectionStory(),
               ],
             ),
           ),
